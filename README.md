@@ -1,8 +1,9 @@
 # cloud-itonami-iso3166-cmr
 
-**CMR**: Republic of Cameroon.
+**`:implemented`** for **CMR**. Flagship `cm-entity-missing`, tax `rccm-unverified`.
 
-- ARMP e-procurement
-- RCCM + NIU tax
+```
+clojure -M:dev:test
+```
 
 AGPL-3.0-or-later.
