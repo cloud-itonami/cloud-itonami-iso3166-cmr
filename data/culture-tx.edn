@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "cmr.dish.ndole", :name "Ndolé", :country "CMR", :kind :dish, :summary "Stew of ndoleh leaves, ground peanuts and crayfish with fish or beef, originating in Douala and widely regarded as the national dish of Cameroon.", :url "https://en.wikipedia.org/wiki/Ndolé", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "cmr.dish.achu", :name "Achu soup", :country "CMR", :kind :dish, :summary "Yellow soup of cocoyam, palm oil and limestone, a traditional food originating in Cameroon's Northwest Region, served during cultural celebrations and family events.", :url "https://en.wikipedia.org/wiki/Achu_(soup)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Gnetum_africanum", :id "cmr.dish.eru", :kind :dish, :name-local "Okok", :country "CMR", :retrieved-at "2026-07-17", :summary "Leaves of the tropical African vine Gnetum africanum, used as a vegetable for soups and stews (eru soup, okazi soup or afang soup); known in Cameroon as eru, okok, m'fumbua or fumbua.", :name "Eru", :url-provenance :wikipedia-en}
+#:culture{:url "https://en.wikipedia.org/wiki/Palm_wine", :id "cmr.beverage.palm-wine", :kind :beverage, :name-local "Matango", :country "CMR", :retrieved-at "2026-07-17", :summary "Alcoholic beverage from fermented palm sap, ceremonially important in Cameroon's North West Region and known locally by names including matango, mimbo and mbuh.", :name "Palm wine", :url-provenance :wikipedia-en}
+#:culture{:id "cmr.festival.ngondo", :name "Ngondo", :country "CMR", :kind :festival, :summary "Annual water-centred festival held by the Sawa coastal peoples in Douala, Cameroon, during the first two weeks of December at Wouri Bay.", :url "https://en.wikipedia.org/wiki/Ngondo", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "cmr.heritage.dja-faunal-reserve", :name "Dja Faunal Reserve", :country "CMR", :kind :heritage, :summary "Congo Basin rainforest reserve in southeastern Cameroon, inscribed as a UNESCO World Heritage Site in 1987, with around 90% of its area undisturbed.", :url "https://en.wikipedia.org/wiki/Dja_Faunal_Reserve", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "cmr.heritage.sangha-trinational", :name "Sangha Trinational", :country "CMR", :kind :heritage, :summary "Transnational Congo Basin rainforest protected area shared by Cameroon, the Central African Republic and the Republic of the Congo, added as a UNESCO World Heritage Site in 2012.", :url "https://en.wikipedia.org/wiki/Sangha_Trinational", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
