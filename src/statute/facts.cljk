@@ -6,7 +6,7 @@
   jurisdiction must generally track for compliance. Mirrors
   cloud-itonami-iso3166-cog/-tcd/-tgo's `statute.facts` (ADR-2607141700,
   cloud-itonami-compliance-fact-federation) -- this iteration read all
-  three siblings' full `src/statute/facts.cljc` before writing this one.
+  three siblings' full `src/statute/facts.cljk` before writing this one.
 
   Every entry below cites an OFFICIAL government-hosted, official-
   supranational-body-hosted (OHADA), or official-international-
